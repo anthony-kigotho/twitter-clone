@@ -138,6 +138,7 @@ fetchUsers().then(users => {
     console.error('Error:', error);
 })
 
+
 renderComments(1);
 
 

@@ -92,3 +92,15 @@ button {
     background: transparent;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 776px) {
+    .user-posts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .posts, .comments {
+        width: 100vw;
+        margin-bottom: 50px;
+    }
+  }
